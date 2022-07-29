@@ -1,0 +1,23 @@
+{
+  "name": "substrate-event",
+  "version": "1.0.0",
+  "description": "Substrate event",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wutong",
+  "license": "ISC",
+  "srcipt": {
+    "start": "node --use_strict index.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^7.8.1",
+    "@polkadot/types": "^7.8.1",
+    "web3": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
